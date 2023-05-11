@@ -1,0 +1,21 @@
+.App-logo {
+  width: 200px;
+
+  pointer-events: none;
+}
+
+.Nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items > li {
+  padding: 10px;
+}
