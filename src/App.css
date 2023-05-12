@@ -1,21 +1,46 @@
-.App-logo {
-  width: 200px;
+body {
+  padding: 0;
+  margin: 0;
+}
 
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.AppLogo {
+  width: 100px;
   pointer-events: none;
 }
 
-.Nav-bar {
+.NavBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-right: 1rem;
+  box-shadow: 0 4px 2px -2px gray;
 }
 
-.nav-items {
+.NavItems {
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
 
-.nav-items > li {
+.NavItems > li {
   padding: 10px;
+}
+
+.Content {
+  padding-bottom: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.Footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: lightblue;
+  padding-left: 1rem;
 }
