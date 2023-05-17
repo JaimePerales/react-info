@@ -4,14 +4,11 @@ import logo from '../logo.svg';
 function Header() {
   return (
     <header className="Header">
-      <nav className="NavBar">
+      <div className="Logo">
         <img src={logo} className="AppLogo" alt="logo" />
-        <ul className="NavItems">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contacts</li>
-        </ul>
-      </nav>
+        <span>ReactFacts</span>
+      </div>
+      <h3 className="ExtraTitle">React Course - Project 1</h3>
     </header>
   );
 }
